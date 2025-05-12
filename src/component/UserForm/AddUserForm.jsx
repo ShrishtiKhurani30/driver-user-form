@@ -13,7 +13,7 @@ const AddUserForm = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center p-4 px-4 sm:px-6 md:px-10">
       <div className="w-full max-w-lg mx-auto mt-10 bg-white/60 shadow-xl rounded-xl p-6 sm:p-8 border border-gray-300">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
+        <h2 className="text-lg sm:text-2xl font-bold text-center text-gray-800 mb-6">
           Create User Account
         </h2>
 
