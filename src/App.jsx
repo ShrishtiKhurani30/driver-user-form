@@ -1,9 +1,12 @@
-import DriverForm from "./component/DriverForm.jsx"
+import DriverForm from './component/DriverForm/DriverForm'
+import AddUserForm from './component/UserForm/AddUserForm'
+
 function App() {
  
   return (
     <div>
-      <DriverForm/>
+      {/* <DriverForm/> */}
+      <AddUserForm/>
     </div>
   )
 }
