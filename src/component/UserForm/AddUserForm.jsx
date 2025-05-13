@@ -11,9 +11,9 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const AddUserForm = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center p-4 px-4 sm:px-6 md:px-10">
-      <div className="w-full max-w-lg mx-auto mt-10 bg-white/60 shadow-xl rounded-xl p-6 sm:p-8 border border-gray-300">
-        <h2 className="text-lg sm:text-2xl font-bold text-center text-gray-800 mb-6">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
+     <div className="w-full max-w-md sm:max-w-lg mx-auto mt-6 bg-white/40 shadow-xl rounded-xl px-4 py-6 sm:p-8 border border-gray-300"> 
+        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-6">
           Create User Account
         </h2>
 
@@ -26,7 +26,7 @@ const AddUserForm = () => {
               type="text"
               placeholder="Full Name"
               required
-              className="px-8 w-full border border-gray-300 placeholder:text-gray-500 rounded-md py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="px-8 w-full border border-gray-300 placeholder:text-gray-500 rounded-md py-2 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-duration-200"
             />
           </div>
 
@@ -95,7 +95,7 @@ const AddUserForm = () => {
               <IoPersonCircleOutline />
             </div>
             <label className="block text-gray-500 mb-2 ">Gender</label>
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
               <label className="inline-flex items-center">
                 <input
                   type="radio"
@@ -147,14 +147,14 @@ const AddUserForm = () => {
             />
           </div>
 
-          <div className="mt-4 flex justify-center">
-            <button
-              type="submit"
-              className="bg-gray-800 hover:bg-gray-700 text-white py-2 px-10 sm:px-8 md:px-10 rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 text-sm sm:text-base md:text:lg"
-            >
-              Submit
-            </button>
-          </div>
+       <div className="w-full">
+                <button
+                  type="submit"
+                  className="w-full rounded-lg font-semibold bg-gray-800 text-white hover:scale-105 hover:bg-gray-700 p-2 hover:shadow-lg transition-all duration-300 cursor-pointer"
+                >
+                  Submit
+                </button>
+              </div>
         </form>
       </div>
     </div>
