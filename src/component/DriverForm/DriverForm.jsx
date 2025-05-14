@@ -14,25 +14,25 @@ const DriverForm = () => {
             <input
               type="text"
               placeholder="Driver Name"
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
               required
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
               required
             />
             <input
               type="phone"
               placeholder="Phone Number"
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
               required
             />
 
             <select
               required
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
             >
               <option disabled selected className="text-gray-500">
                 Select Vehicle Type
@@ -47,7 +47,7 @@ const DriverForm = () => {
 
             <select
               required
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
             >
               <option disabled selected className="text-gray-500">
                 Status
@@ -60,13 +60,13 @@ const DriverForm = () => {
             <input
               type="number"
               placeholder="Rating"
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
               required
             />
             <input
               type="number"
               placeholder="Completed Rides"
-              className="w-full max-w-sm sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
+              className="w-full max-w-lg sm:max-w-full border border-gray-300 p-2 rounded placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-all duration-200"
               required
             />
           </div>
