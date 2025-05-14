@@ -26,7 +26,7 @@ const AddUserForm = () => {
               type="text"
               placeholder="Full Name"
               required
-              className="px-8 w-full border border-gray-300 placeholder:text-gray-500 rounded-md py-2 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-duration-200"
+              className="px-8 w-full border border-gray-300 placeholder:text-gray-500 rounded-xl py-2 focus:outline-none focus:ring-2 focus:ring-gray-600 transition-duration-200"
             />
           </div>
 
@@ -38,7 +38,7 @@ const AddUserForm = () => {
               type="email"
               placeholder="Email"
               required
-              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-md px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-xl px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
             />
           </div>
 
@@ -50,7 +50,7 @@ const AddUserForm = () => {
               type="text"
               placeholder="Phone Number"
               required
-              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-md px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-xl px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
             />
           </div>
 
@@ -60,7 +60,7 @@ const AddUserForm = () => {
             </div>
             <select
               required
-              className="w-full border border-gray-300 rounded-md px-7 py-2 text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="w-full border border-gray-300 rounded-xl px-7 py-2 text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600"
             >
               <option disabled selected className="text-gray-500">
                 Select Role
@@ -77,7 +77,7 @@ const AddUserForm = () => {
             </div>
             <select
               required
-              className="w-full border border-gray-300 rounded-md px-6 py-2 text-gray-500 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="w-full border border-gray-300 rounded-xl px-6 py-2 text-gray-500 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-600"
             >
               <option disabled selected className="text-gray-500">
                 Status
@@ -89,7 +89,7 @@ const AddUserForm = () => {
 
           <div
             required
-            className="border border-gray-300 rounded-md px-8 py-1 relative"
+            className="border border-gray-300 rounded-xl px-8 py-1 relative"
           >
             <div className="absolute top-2 left-2 flex items-center justify-center">
               <IoPersonCircleOutline />
@@ -131,7 +131,7 @@ const AddUserForm = () => {
               type="text"
               placeholder="Address"
               required
-              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-md px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
+              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-xl px-8 py-2 focus:outline-none focus:ring-2 focus:ring-gray-600"
             />
           </div>
 
@@ -143,7 +143,7 @@ const AddUserForm = () => {
               type="text"
               placeholder="State / City"
               required
-              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-md px-8 py-2 focus:outline-none focus:ring-2 mb-3 focus:ring-gray-600"
+              className="w-full border border-gray-300 placeholder:text-gray-500 rounded-xl px-8 py-2 focus:outline-none focus:ring-2 mb-3 focus:ring-gray-600"
             />
           </div>
 
