@@ -12,12 +12,12 @@ import { IoLocationOutline } from "react-icons/io5";
 const AddUserForm = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
-     <div className="w-full max-w-md sm:max-w-lg mx-auto mt-6 bg-white/40 shadow-xl rounded-xl px-4 py-6 sm:p-8 border border-gray-300"> 
+     <div className="w-full max-w-md mx-auto mt-10 bg-white/60 shadow-xl rounded-xl p-6 border border-gray-300"> 
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-6">
           Create User Account
         </h2>
 
-        <form className="space-y-3">
+        <form className="space-y-2">
           <div className="py-1 relative">
             <div className="absolute top-4 left-2 flex justify-center items-center">
               <IoPersonAddOutline />
